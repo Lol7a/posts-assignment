@@ -1,4 +1,4 @@
-# Posts & Comments App Assignmet
+# Posts & Comments App Assignment
 
 ## Description
 

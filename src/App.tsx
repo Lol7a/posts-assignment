@@ -1,3 +1,4 @@
+import "./App.css";
 import React from "react";
 import {
 	BrowserRouter as Router,
@@ -13,8 +14,11 @@ function App() {
 		<Router>
 			<Routes>
 				<Route path="/" element={<Navigate to="/posts" />} />
-				<Route path="/posts" element={<PostsPage />} />
-				<Route path="/post/:id" element={<SinglePostPage />} />
+				<Route path="/posts" element={<PostsPage message="Hello from" />} />
+				<Route
+					path="/post/:id"
+					element={<SinglePostPage message="Hello from" />}
+				/>
 			</Routes>
 		</Router>
 	);
